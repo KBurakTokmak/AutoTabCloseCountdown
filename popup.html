@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tab Countdown Closer</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Tab Countdown</h1>
+
+      <div class="inputs">
+        <label>
+          Hours
+          <input id="hoursInput" type="number" min="0" step="1" value="1" />
+        </label>
+        <label>
+          Minutes
+          <input id="minutesInput" type="number" min="0" step="1" value="0" />
+        </label>
+      </div>
+
+      <div class="actions">
+        <button id="startButton" type="button">Start Countdown</button>
+        <button id="cancelButton" type="button" class="secondary">Cancel</button>
+      </div>
+
+      <p id="statusText" class="status">No active timer on this tab.</p>
+      <p id="countdownText" class="countdown">--:--:--</p>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
