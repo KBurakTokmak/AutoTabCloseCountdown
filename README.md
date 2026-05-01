@@ -3,6 +3,8 @@
 Auto Tab Closer Countdown is a Firefox extension that lets you set a timer per tab.
 When a tab's countdown reaches zero, the extension closes that tab automatically.
 
+[ADD THE ADDON TO YOUR BROWSER HERE](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-closer-countdown/)
+
 ## Features
 
 - Set a timer for the current tab using hours and minutes.
